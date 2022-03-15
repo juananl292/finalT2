@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/1DAM2021/finalevaluacion/finalT2/biblioteca.xsd">
+  <libro>
+    <foto>miki.webp</foto>
+    <titulo>Miki al solecito</titulo>
+    <autor>Miki</autor>
+    <fechaPublicacion año="1976"/>
+  </libro>
+  <libro>
+    <foto>senda.webp</foto>
+    <titulo>Senda acostadita</titulo>
+    <autor fechaNacimiento="28/03/1936">Senda</autor>
+    <fechaPublicacion año="1973"/>
+  </libro>
+  <libro>
+    <foto>summer.webp</foto>
+    <titulo>Summer relajadita</titulo>
+    <autor fechaNacimiento="28/03/1936">Summer</autor>
+    <fechaPublicacion año="1969"/>
+  </libro>
+</biblioteca>

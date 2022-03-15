@@ -1,0 +1,52 @@
+p {
+    color:blue !important;
+    background-color:yellow;
+}
+body:active{
+    flex-direction: row-reverse;
+    margin-left: 202px;
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+img:active{
+    
+    
+    
+    box-shadow: 32px 16px 16px 0 rgba(0, 0, 1, 1.50);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+}
+#escondido{
+    visibility: hidden;
+}
+img {
+    width: 100%;
+}
+
+#dos {
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h2:hover {
+    font-size: 28px;
+}
+
+@media screen and ( max-width: 550px )  {
+    body{
+        visibility: hidden;
+        
+    }
+    #escondido{
+        visibility: visible;
+        background-color: white;
+    }
+   
+}

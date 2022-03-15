@@ -1,0 +1,27 @@
+<?xml encoding="utf-8"?>
+
+<!ELEMENT biblioteca (libro)+>
+<!ATTLIST biblioteca
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT libro (foto,titulo,autor,fechaPublicacion)>
+<!ATTLIST libro
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST foto
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT autor (#PCDATA)>
+<!ATTLIST autor
+    xmlns CDATA #FIXED ''
+    fechaNacimiento CDATA #IMPLIED>
+
+<!ELEMENT fechaPublicacion EMPTY>
+<!ATTLIST fechaPublicacion
+    xmlns CDATA #FIXED ''
+    año CDATA #REQUIRED>
